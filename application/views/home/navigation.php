@@ -1,0 +1,1 @@
+<div class="nav nav-home"><div class="wp"><h1 class="logo">Grupo Nevada</h1><ul><li><a href="#init" class="scr">Home</a></li><li><a href="#todoterreno" class="scr">Todo terreno</a></li><li><a href="#caballero" class="scr">Caballero</a></li><li><a href="#nino" class="scr">Niño</a></li></ul></div></div>

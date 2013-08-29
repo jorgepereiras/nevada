@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|img|js|css|media|robots\.txt|humans\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+<ifmodule mod_expires.c>
+ ExpiresActive On
+ ExpiresDefault A3600
+ <filesmatch ".(jpg|JPG|gif|GIF|png|css|ico|js)$">
+  ExpiresDefault "access plus 7 day"
+ </filesmatch>
+</ifmodule>

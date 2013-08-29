@@ -1,0 +1,882 @@
+/*  CSS3 ✰ Classes  */
+body {
+  background: #000 url("../img/back.jpg") no-repeat fixed;
+  margin: 0;
+  padding: 0;
+}
+.clear {
+  clear: both;
+}
+.container,
+.wp {
+  margin: 0 auto;
+  position: relative;
+  width: 1200px;
+}
+#init {
+  height: 690px;
+}
+#init #container-squares a,
+#init #container-squares div,
+#init #container-squares h2 {
+  display: block;
+  position: absolute;
+}
+#init #container-squares a {
+  z-index: 1;
+}
+#init #container-squares a:hover {
+  background: #830000;
+  -o-box-shadow: #fff 0 0 20px;
+  -ms-box-shadow: #fff 0 0 20px;
+  -moz-box-shadow: #fff 0 0 20px;
+  -webkit-box-shadow: #fff 0 0 20px;
+  box-shadow: #fff 0 0 20px;
+  -webkit-background-clip: padding-box;
+  z-index: 10;
+}
+#init .logoNevada {
+  background: #fff url("../img/nevada.jpg") no-repeat 0 0;
+  height: 200px;
+  left: 50px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  top: 0;
+  width: 319px;
+}
+#init .cuadro-botitas {
+  background: #fff url("../img/botitas.jpg") no-repeat 0 0;
+  height: 201px;
+  left: 319px;
+  top: 50px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  width: 217px;
+}
+#init a.btn-todoterreno {
+  background: #ae7006;
+  color: #fff;
+  font: normal 700 38px 'Oswald', sans-serif;
+  left: 586px;
+  letter-spacing: -1.5px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  padding: 27px 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 0;
+  -o-transition: all 0.2s ease 0.2s;
+  -ms-transition: all 0.2s ease 0.2s;
+  -moz-transition: all 0.2s ease 0.2s;
+  -webkit-transition: all 0.2s ease 0.2s;
+  transition: all 0.2s ease 0.2s;
+  width: 243px;
+}
+#init .cuadro-botitas2 {
+  background: #fff url("../img/botitas2.jpg") no-repeat 0 0;
+  height: 161px;
+  left: 536px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  top: 68px;
+  width: 243px;
+}
+#init .cuadro-wero {
+  background: #fff url("../img/wero.jpg") no-repeat 0 0;
+  height: 268px;
+  left: 729px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  top: 0;
+  width: 421px;
+}
+#init .cuadro-azul {
+  background: #fff url("../img/azul.jpg") no-repeat 0 0;
+  height: 87px;
+  left: 0px;
+  top: 200px;
+  width: 202px;
+}
+#init a.btn-home {
+  background: #01323f;
+  color: #fff;
+  font: normal 700 50px 'Oswald', sans-serif;
+  left: 0;
+  letter-spacing: -1.5px;
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 288px;
+  width: 202px;
+}
+#init .cuadro-sombrero {
+  background: #fff url("../img/sombrero.jpg") no-repeat 0 0;
+  height: 222px;
+  left: 202px;
+  top: 200px;
+  width: 334px;
+}
+#init h2.cuadro-slogan {
+  background: #1c2e32;
+  color: #fff;
+  font: normal 700 70px 'Oswald', sans-serif;
+  left: 536px;
+  letter-spacing: -1.5px;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 268px;
+  width: 665px;
+}
+#init h2.cuadro-slogan span {
+  display: block;
+  font: normal 300 40px 'Oswald', sans-serif;
+  margin: -30px 0 0;
+}
+#init .cuadro-traje {
+  background: #fff url("../img/traje.jpg") no-repeat 0 0;
+  height: 271px;
+  left: 0;
+  top: 422px;
+  width: 340px;
+}
+#init a.btn-caballero {
+  background: #112b44;
+  color: #fff;
+  font: normal 700 40px 'Oswald', sans-serif;
+  left: 340px;
+  letter-spacing: -1.5px;
+  padding: 23px 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 422px;
+  -o-transition: all 0.2s ease 0.2s;
+  -ms-transition: all 0.2s ease 0.2s;
+  -moz-transition: all 0.2s ease 0.2s;
+  -webkit-transition: all 0.2s ease 0.2s;
+  transition: all 0.2s ease 0.2s;
+  width: 197px;
+}
+#init .cuadro-calle {
+  background: #fff url("../img/calle.jpg") no-repeat 0 0;
+  height: 163px;
+  left: 340px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  top: 480px;
+  width: 196px;
+}
+#init .cuadro-cacles {
+  background: #fff url("../img/cacles.jpg") no-repeat 0 0;
+  height: 296px;
+  left: 586px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  top: 401px;
+  width: 361px;
+}
+#init .cuadro-ninos {
+  background: #fff url("../img/ninos.jpg") no-repeat 0 0;
+  height: 190px;
+  left: 897px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  top: 351px;
+  width: 302px;
+}
+#init a.btn-ninos {
+  background: #008498;
+  color: #fff;
+  font: normal 700 60px 'Oswald', sans-serif;
+  left: 847px;
+  letter-spacing: -1.5px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  padding: 9px 0;
+  text-align: center;
+  text-transform: uppercase;
+  top: 591px;
+  -o-transition: all 0.2s ease 0.2s;
+  -ms-transition: all 0.2s ease 0.2s;
+  -moz-transition: all 0.2s ease 0.2s;
+  -webkit-transition: all 0.2s ease 0.2s;
+  transition: all 0.2s ease 0.2s;
+  width: 302px;
+}
+.nav-home {
+  background: transparent url("../img/grisito.png") repeat;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 500;
+}
+.nav-home .wp {
+  margin: 0 auto;
+  position: relative;
+  width: 1200px;
+}
+.nav-home .logo {
+  background: transparent url("../img/logo-neada.jpg");
+  -o-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  height: 129px;
+  left: 40px;
+  position: absolute;
+  text-indent: -99999px;
+  top: 0;
+  width: 175px;
+}
+.nav-home ul {
+  margin: 0 0 0 240px;
+}
+.nav-home ul li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.nav-home ul li a {
+  color: #fff;
+  display: block;
+  font: normal 400 18px 'Oswald', sans-serif;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  -o-transition: all 0.2s ease 0.2s;
+  -ms-transition: all 0.2s ease 0.2s;
+  -moz-transition: all 0.2s ease 0.2s;
+  -webkit-transition: all 0.2s ease 0.2s;
+  transition: all 0.2s ease 0.2s;
+}
+.nav-home ul li a:hover {
+  background: #830000;
+  -o-box-shadow: #fff 0 0 20px;
+  -ms-box-shadow: #fff 0 0 20px;
+  -moz-box-shadow: #fff 0 0 20px;
+  -webkit-box-shadow: #fff 0 0 20px;
+  box-shadow: #fff 0 0 20px;
+  -webkit-background-clip: padding-box;
+}
+.nav-int {
+  background: #17314a;
+  top: 0;
+  width: 100%;
+}
+.nav-int .tituloInterior {
+  background-color: #610108;
+  text-transform: uppercase;
+  font: normal 400 48px 'Oswald', sans-serif;
+}
+.nav-int .tituloInterior h1 {
+  color: #fff;
+  padding-left: 200px;
+}
+.nav-int .logo {
+  background: transparent url("../img/logo-neada.jpg");
+  -o-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  border-radius: 0 0 10px 10px;
+  -o-box-shadow: #000 0 0 10px;
+  -ms-box-shadow: #000 0 0 10px;
+  -moz-box-shadow: #000 0 0 10px;
+  -webkit-box-shadow: #000 0 0 10px;
+  box-shadow: #000 0 0 10px;
+  -webkit-background-clip: padding-box;
+  height: 129px;
+  left: 0;
+  position: absolute;
+  text-indent: -99999px;
+  top: 0;
+  width: 175px;
+  z-index: 100;
+}
+.nav-int ul {
+  margin: 0 0 0 200px;
+  padding: 50px 0 0;
+}
+.nav-int ul li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+}
+.nav-int ul li a {
+  color: #fff;
+  display: block;
+  font: normal 400 18px 'Oswald', sans-serif;
+  padding: 8px 15px;
+  text-transform: uppercase;
+}
+#todoterreno {
+  background: #fff;
+}
+#todoterreno .banner {
+  background: #fff url("../img/bann-todoterreno.jpg") no-repeat 0 0 fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+#todoterreno .banner .titulo-seccion {
+  left: 0;
+  position: absolute;
+  top: 160px;
+}
+#todoterreno .banner .titulo-seccion h3,
+#todoterreno .banner .titulo-seccion h4 {
+  background-color: #ae7006;
+  color: #fff;
+  padding: 5px 15px 5px 70px;
+  position: absolute;
+  text-transform: uppercase;
+}
+#todoterreno .banner .titulo-seccion h3 {
+  font: normal 700 48px 'Oswald', sans-serif;
+  top: 0;
+  width: 310px;
+}
+#todoterreno .banner .titulo-seccion h4 {
+  font: normal 300 40px 'Oswald', sans-serif;
+  margin: -25px 0 0;
+  top: 111px;
+  width: 560px;
+}
+#todoterreno .banner .champions {
+  position: absolute;
+  right: 0;
+  top: 97px;
+  width: 526px;
+  z-index: 10;
+}
+#todoterreno .banner .champions .shoe {
+  position: relative;
+  z-index: 2;
+}
+#todoterreno .banner .champions .estilo {
+  background-color: #254f42;
+  color: #fff;
+  font: normal 300 20px 'Oswald', sans-serif;
+  left: -100px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 265px;
+  text-transform: uppercase;
+  width: 250px;
+}
+#todoterreno .banner .champions .lnkviewDetail {
+  background-color: #254f42;
+  color: #fff;
+  display: block;
+  font: normal 300 16px 'Oswald', sans-serif;
+  left: -100px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 310px;
+  width: 250px;
+}
+#todoterreno .carrusel {
+  background-color: #fff;
+}
+#todoterreno .carrusel ul li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  height: 336px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+#todoterreno .carrusel ul .item {
+  position: absolute;
+  -o-transition: all 0.2s ease 0.2s;
+  -ms-transition: all 0.2s ease 0.2s;
+  -moz-transition: all 0.2s ease 0.2s;
+  -webkit-transition: all 0.2s ease 0.2s;
+  transition: all 0.2s ease 0.2s;
+  top: 70px;
+  width: 300px;
+}
+#todoterreno .carrusel ul .item .img {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+#todoterreno .carrusel ul .item .txt {
+  padding: 0 40px;
+}
+#todoterreno .carrusel ul .item img {
+  display: block;
+  position: absolute;
+  top: -30px;
+  width: 300px;
+}
+#todoterreno .carrusel ul .item h4 {
+  background-color: #c1bca9;
+  color: #2d2e2e;
+  display: block;
+  font: normal 300 36px 'Oswald', sans-serif;
+  padding: 4px 8px;
+  text-transform: uppercase;
+}
+#todoterreno .carrusel ul .item p {
+  background-color: #c1bca9;
+  color: #2d2e2e;
+  display: block;
+  font: normal 300 12px 'Oswald', sans-serif;
+  padding: 4px 8px;
+}
+#todoterreno .carrusel ul .item a {
+  background-color: #254f42;
+  color: #fff;
+  display: block;
+  font: normal 300 12px 'Oswald', sans-serif;
+  padding: 4px 8px;
+}
+#todoterreno .carrusel ul .item:hover {
+  top: 0px;
+}
+#caballero {
+  background: #fff;
+}
+#caballero .banner {
+  background: #fff url("../img/bann-caballero.jpg") no-repeat 0 0 fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+#caballero .banner .titulo-seccion {
+  left: 0;
+  position: absolute;
+  top: 160px;
+}
+#caballero .banner .titulo-seccion h3,
+#caballero .banner .titulo-seccion h4 {
+  background-color: #610108;
+  color: #fff;
+  padding: 5px 15px 5px 70px;
+  position: absolute;
+  text-transform: uppercase;
+}
+#caballero .banner .titulo-seccion h3 {
+  font: normal 700 48px 'Oswald', sans-serif;
+  top: 0;
+  width: 310px;
+}
+#caballero .banner .titulo-seccion h4 {
+  font: normal 300 30px 'Oswald', sans-serif;
+  margin: -25px 0 0;
+  top: 111px;
+  width: 560px;
+}
+#caballero .banner .champions {
+  position: absolute;
+  right: 0;
+  top: 97px;
+  width: 526px;
+  z-index: 10;
+}
+#caballero .banner .champions .shoe {
+  position: relative;
+  z-index: 2;
+}
+#caballero .banner .champions .estilo {
+  background-color: #2d2e2e;
+  color: #fff;
+  font: normal 300 20px 'Oswald', sans-serif;
+  left: -100px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 265px;
+  text-transform: uppercase;
+  width: 250px;
+}
+#caballero .banner .champions .lnkviewDetail {
+  background-color: #2d2e2e;
+  color: #fff;
+  display: block;
+  font: normal 300 16px 'Oswald', sans-serif;
+  left: -100px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 310px;
+  width: 250px;
+}
+#caballero .carrusel {
+  background-color: #fff;
+}
+#caballero .carrusel ul li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  height: 336px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+#caballero .carrusel ul .item {
+  position: absolute;
+  -o-transition: all 0.2s ease 0.2s;
+  -ms-transition: all 0.2s ease 0.2s;
+  -moz-transition: all 0.2s ease 0.2s;
+  -webkit-transition: all 0.2s ease 0.2s;
+  transition: all 0.2s ease 0.2s;
+  top: 70px;
+  width: 300px;
+}
+#caballero .carrusel ul .item .img {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+#caballero .carrusel ul .item .txt {
+  padding: 0 40px;
+}
+#caballero .carrusel ul .item img {
+  display: block;
+  position: absolute;
+  top: -30px;
+  width: 300px;
+}
+#caballero .carrusel ul .item h4 {
+  background-color: #c1bca9;
+  color: #2d2e2e;
+  display: block;
+  font: normal 300 36px 'Oswald', sans-serif;
+  padding: 4px 8px;
+  text-transform: uppercase;
+}
+#caballero .carrusel ul .item p {
+  background-color: #c1bca9;
+  color: #2d2e2e;
+  display: block;
+  font: normal 300 12px 'Oswald', sans-serif;
+  padding: 4px 8px;
+}
+#caballero .carrusel ul .item a {
+  background-color: #610108;
+  color: #fff;
+  display: block;
+  font: normal 300 12px 'Oswald', sans-serif;
+  padding: 4px 8px;
+}
+#caballero .carrusel ul .item:hover {
+  top: 0px;
+}
+#nino {
+  background: #fff;
+}
+#nino .banner {
+  background: #fff url("../img/bann-nino.jpg") no-repeat 0 0 fixed;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+#nino .banner .titulo-seccion {
+  left: 0;
+  position: absolute;
+  top: 160px;
+}
+#nino .banner .titulo-seccion h3,
+#nino .banner .titulo-seccion h4 {
+  background-color: #45858f;
+  color: #fff;
+  padding: 5px 15px 5px 70px;
+  position: absolute;
+  text-transform: uppercase;
+}
+#nino .banner .titulo-seccion h3 {
+  font: normal 700 48px 'Oswald', sans-serif;
+  top: 0;
+  width: 310px;
+}
+#nino .banner .titulo-seccion h4 {
+  font: normal 300 40px 'Oswald', sans-serif;
+  margin: -25px 0 0;
+  top: 111px;
+  width: 560px;
+}
+#nino .banner .champions {
+  position: absolute;
+  right: 0;
+  top: 97px;
+  width: 526px;
+  z-index: 10;
+}
+#nino .banner .champions .shoe {
+  position: relative;
+  z-index: 2;
+}
+#nino .banner .champions .estilo {
+  background-color: #6dbb85;
+  color: #fff;
+  font: normal 300 20px 'Oswald', sans-serif;
+  left: -100px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 265px;
+  text-transform: uppercase;
+  width: 250px;
+}
+#nino .banner .champions .lnkviewDetail {
+  background-color: #6dbb85;
+  color: #fff;
+  display: block;
+  font: normal 300 16px 'Oswald', sans-serif;
+  left: -100px;
+  padding: 4px 8px;
+  position: absolute;
+  top: 310px;
+  width: 250px;
+}
+#nino .carrusel {
+  background-color: #fff;
+}
+#nino .carrusel ul li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  height: 336px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+#nino .carrusel ul .item {
+  position: absolute;
+  -o-transition: all 0.2s ease 0.2s;
+  -ms-transition: all 0.2s ease 0.2s;
+  -moz-transition: all 0.2s ease 0.2s;
+  -webkit-transition: all 0.2s ease 0.2s;
+  transition: all 0.2s ease 0.2s;
+  top: 70px;
+  width: 300px;
+}
+#nino .carrusel ul .item .img {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+}
+#nino .carrusel ul .item .txt {
+  padding: 0 40px;
+}
+#nino .carrusel ul .item img {
+  display: block;
+  position: absolute;
+  top: -30px;
+  width: 300px;
+}
+#nino .carrusel ul .item h4 {
+  background-color: #a2c54a;
+  color: #2d2e2e;
+  display: block;
+  font: normal 300 36px 'Oswald', sans-serif;
+  padding: 4px 8px;
+  text-transform: uppercase;
+}
+#nino .carrusel ul .item p {
+  background-color: #a2c54a;
+  color: #2d2e2e;
+  display: block;
+  font: normal 300 12px 'Oswald', sans-serif;
+  padding: 4px 8px;
+}
+#nino .carrusel ul .item a {
+  background-color: #6dbb85;
+  color: #fff;
+  display: block;
+  font: normal 300 12px 'Oswald', sans-serif;
+  padding: 4px 8px;
+}
+#nino .carrusel ul .item:hover {
+  top: 0px;
+}
+.listRelacionados {
+  background: #fff url("../img/deg-relacion.png") repeat-x;
+  height: 120px;
+}
+.listRelacionados ul li {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  height: 120px;
+  margin: 0 10px;
+  overflow: hidden;
+  position: relative;
+  top: 0;
+  -o-transition: all 0.2s ease 0.2s;
+  -ms-transition: all 0.2s ease 0.2s;
+  -moz-transition: all 0.2s ease 0.2s;
+  -webkit-transition: all 0.2s ease 0.2s;
+  transition: all 0.2s ease 0.2s;
+  z-index: 100;
+}
+.listRelacionados ul li img {
+  display: block;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  height: 100px;
+  margin-top: -5px;
+  -o-transition: all 0.2s ease 0.2s;
+  -ms-transition: all 0.2s ease 0.2s;
+  -moz-transition: all 0.2s ease 0.2s;
+  -webkit-transition: all 0.2s ease 0.2s;
+  transition: all 0.2s ease 0.2s;
+}
+.listRelacionados ul li a {
+  background-color: #e0e0e0;
+  bottom: 0;
+  color: #1c1d1d;
+  display: block;
+  font: normal 400 12px 'Oswald', sans-serif;
+  padding: 3px 5px;
+  text-transform: uppercase;
+}
+.listRelacionados ul li:hover {
+  top: 10px;
+  -o-box-shadow: #333 0 15px 15px;
+  -ms-box-shadow: #333 0 15px 15px;
+  -moz-box-shadow: #333 0 15px 15px;
+  -webkit-box-shadow: #333 0 15px 15px;
+  box-shadow: #333 0 15px 15px;
+  -webkit-background-clip: padding-box;
+}
+.listRelacionados ul li:hover img {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+#detalleProducto {
+  background-color: #e0e0e0;
+  overflow: hidden;
+  position: relative;
+}
+#detalleProducto .list-views {
+  left: 0;
+  position: absolute;
+  top: 60px;
+  width: 130px;
+}
+#detalleProducto .list-views a {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  border: 2px solid #ccc;
+  height: 50px;
+  margin: 5px;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  -o-transition: all 0.2s ease 0.2s;
+  -ms-transition: all 0.2s ease 0.2s;
+  -moz-transition: all 0.2s ease 0.2s;
+  -webkit-transition: all 0.2s ease 0.2s;
+  transition: all 0.2s ease 0.2s;
+  width: 50px;
+}
+#detalleProducto .list-views a img {
+  width: 100%;
+}
+#detalleProducto .list-views a:hover {
+  opacity: 1;
+  -ms-filter: none;
+  filter: none;
+}
+#detalleProducto .viewProducto {
+  float: left;
+  min-height: 500px;
+  width: 750px;
+}
+#detalleProducto .viewProducto .view {
+  float: right;
+  height: 400px;
+  position: relative;
+  width: 500px;
+}
+#detalleProducto .viewProducto .view img {
+  margin-top: -5%;
+  width: 100%;
+}
+#detalleProducto .linea {
+  color: #1c1d1d;
+  font: normal 700 40px 'Oswald', sans-serif;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+  position: absolute;
+  left: 20px;
+  top: 250px;
+  text-transform: uppercase;
+}
+#detalleProducto .viewInfo {
+  float: left;
+  margin-left: 20px;
+  width: 430px;
+}
+#detalleProducto .viewInfo h4 {
+  color: #1c1d1d;
+  font: normal 300 30px 'Oswald', sans-serif;
+  margin: 50px 0 20px 0;
+  text-transform: uppercase;
+}
+#detalleProducto .viewInfo p {
+  color: #1c1d1d;
+  font: normal 300 14px 'Oswald', sans-serif;
+  margin: 0 0 10px 10px;
+}
+#detalleProducto .viewInfo h6 {
+  color: #1c1d1d;
+  font: normal 300 12px 'Oswald', sans-serif;
+  margin-top: 20px;
+}
+#detalleProducto .viewInfo .watercolor {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  height: 44px;
+  margin: 5px;
+  width: 46px;
+}
+#detalleProducto .viewInfo .negro {
+  background-color: #000;
+}
+#detalleProducto .viewInfo .cafe {
+  background-color: #1b0c03;
+}
+#detalleProducto .viewInfo .vino {
+  background-color: #300000;
+}
+#detalleProducto .viewInfo .numero {
+  background-color: #fff;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  height: 40px;
+  margin: 5px;
+  padding-top: 4px;
+  text-align: center;
+  width: 46px;
+}
+#detalleProducto .viewInfo .numero p {
+  color: #1c1d1d;
+  font: normal 400 22px 'Oswald', sans-serif;
+  margin: 0;
+}

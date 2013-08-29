@@ -1,0 +1,1 @@
+<a href="{DIR}img/shoes/{ID}/{VISTA}" rel="useZoom: 'zoom01', smallImage: '{DIR}img/shoes/{ID}/medium/{VISTA}'" class="cloud-zoom-gallery"><img src="{DIR}img/shoes/{ID}/medium/{VISTA}"/></a>

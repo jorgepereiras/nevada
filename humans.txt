@@ -1,0 +1,20 @@
+# The humans responsible & technology colophon
+
+# TEAM
+
+    UI Developer: Jorge Pereira
+	Contact: jorge [at] ievolucion.net
+	Twitter: @JorgePereiraS
+	From: León, Guanajuato, México
+
+	Web designer: Jose Luis Arriaga
+	Contact: jlab.akmenot [at] gmail.com
+	From: León, Guanajuato, México
+
+
+# TECHNOLOGY COLOPHON
+
+	Last update: 2013/04/18
+	Language: Spanish
+    HTML5, CSS3/Stylus, Jade
+    jQuery, Coffescript
